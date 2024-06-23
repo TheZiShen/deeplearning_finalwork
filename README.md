@@ -26,9 +26,9 @@ pip install keras==2.6.0
 ## Data
 
 This work supports `tf.data.TFRecordDataset` as the data feed. 
-I provide the following data as training examples:
+Original author provide the following data as training examples:
 
-* Cifar-10 
+* Cifar-10 (if you need, you can refer to original author at the very bottom)
 
 If one needs to run experiments on other datasets, please refer to [`util/data/make_data.py`](./util/data/make_data.py) to build TFRecords.
 
